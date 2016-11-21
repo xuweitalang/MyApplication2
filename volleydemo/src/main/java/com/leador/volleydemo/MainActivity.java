@@ -11,7 +11,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 /**
- * volley网络请求框架的使用
+ * volley网络请求框架使用方法
  */
 public class MainActivity extends AppCompatActivity {
 
