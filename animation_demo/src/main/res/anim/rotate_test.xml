@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--50%p指的是相对于父容器的宽的中心旋转，如果只写50%指的是相对于自己宽的中心旋转-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:duration="2000">
+</rotate>
