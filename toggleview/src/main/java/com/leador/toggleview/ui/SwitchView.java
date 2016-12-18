@@ -34,6 +34,10 @@ public class SwitchView extends View {
         int backBitmapId = array.getResourceId(R.styleable.SwitchView_back_bitmap,-1);
         int switchBitmapId = array.getResourceId(R.styleable.SwitchView_switch_bitmap,-1);
         final boolean state = array.getBoolean(R.styleable.SwitchView_new_state,false);
+        /**
+         * 在TypedArray后调用recycle主要是为了缓存。当recycle被调用后，这就说明这个对象从现在可以被重用了
+         */
+        array.recycle();
 
         setBackBitmap(backBitmapId);
         setSwitchBitmap(switchBitmapId);
