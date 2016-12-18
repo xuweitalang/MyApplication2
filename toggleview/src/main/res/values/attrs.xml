@@ -6,4 +6,10 @@
         <attr name="slide_button" format="reference"/>
         <attr name="state" format="boolean"/>
     </declare-styleable>
+
+    <declare-styleable name="SwitchView">
+        <attr name="back_bitmap" format="reference"/>
+        <attr name="switch_bitmap" format="reference"/>
+        <attr name="new_state" format="boolean"/>
+    </declare-styleable>
 </resources>

@@ -51,7 +51,7 @@ public class ToggleView extends View {
         String nameSpace = "http://schemas.android.com/apk/res/com.leador.toggleview"; //命名空间
         int switchBgResource = attrs.getAttributeResourceValue(nameSpace,"switch_background",-1);
         int slideBtnResource = attrs.getAttributeResourceValue(nameSpace,"slide_button",-1);
-        boolean state   = attrs.getAttributeBooleanValue(nameSpace,"state",false);
+        boolean state = attrs.getAttributeBooleanValue(nameSpace,"state",false);
 
         setSwitchBackgroundResource(switchBgResource);
         setSlideButtonResource(slideBtnResource);
@@ -142,7 +142,7 @@ public class ToggleView extends View {
         }
 
         invalidate(); //会引发onDraw方法重新调用，里面的变量重新生效，界面会刷新
-        return true; // 返回true：消费了用户的触摸事件，才可以受到其他的事件
+        return true; // 返回true：消费了用户的触摸事件，才可以收到到其他的事件
     }
 
     /**
