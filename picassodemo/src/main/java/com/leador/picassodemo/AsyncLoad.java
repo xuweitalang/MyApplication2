@@ -20,6 +20,7 @@ public class AsyncLoad{
 	public static int defaultLoadStyle = -1;
 	/**
 	 * 默认加载框布局
+	 *
 	 */
 	public static int defaultLoadResource= -1;	
 	private AsyncLoadListener listener;	
