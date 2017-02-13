@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rotate  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fromDegrees="0"
+    android:toDegrees="360">
+
+<!--    innerRadius:内环半径  thickness：环的厚度  innerRadiusRatio:内环半径比  thicknessRatio:环的厚度比，两两结合使用-->
+    <shape
+        android:shape="ring"
+        android:innerRadiusRatio="2.5"
+        android:thicknessRatio="10">
+        <!--sweep是扫描类型-->
+        <gradient
+            android:type="sweep"
+            android:startColor="#ffff0000"
+            android:centerColor="#88ff0000"
+            android:endColor="#00000000"/>
+    </shape>
+</rotate>
